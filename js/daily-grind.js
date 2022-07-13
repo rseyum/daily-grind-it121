@@ -103,7 +103,31 @@ switch (myDay) {
       desc: `Friday is almost here! Time to push through with our classic Drip Coffee`,
     };
     break;
+  case 5:
+    today = "Friday";
 
+    coffee = {
+      color: "palevioletred",
+      name: "Caramel Latte",
+      pic: "images/caramel-latte.jpg",
+      alt: "A glass of a caramel latte",
+      day: "Friday",
+      desc: `You made it to Friday! Enjoy an sweet and creamy Caramel Latte`,
+    };
+    break;
+
+  case 6:
+    today = "Saturday";
+
+    coffee = {
+      color: "seagreen",
+      name: "Frappaccino",
+      pic: "images/frappaccino.jpg",
+      alt: "A glass of frappaccino, with a green straw",
+      day: "Saturday",
+      desc: `It's Saturday! Time to enjoy a nice, cold, refreshing frappacino`,
+    };
+    break;
   default:
     today = "Something went wrong!";
 }
