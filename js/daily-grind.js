@@ -77,6 +77,32 @@ switch (myDay) {
     };
 
     break;
+  case 3:
+    today = "Wednesday";
+
+    coffee = {
+      color: "maroon",
+      name: "Cold Brew",
+      pic: "images/cold-brew.jpg",
+      alt: "A picture of two glasses of cold brew coffee drinks",
+      day: "Wednesday",
+      desc: `Cool off with our refreshing Cold Brews`,
+    };
+
+    break;
+
+  case 4:
+    today = "Thursday";
+
+    coffee = {
+      color: "navy",
+      name: "Drip Coffee",
+      pic: "images/drip.jpg",
+      alt: "A mug of black drip coffee",
+      day: "Thursday",
+      desc: `Friday is almost here! Time to push through with our classic Drip Coffee`,
+    };
+    break;
 
   default:
     today = "Something went wrong!";
