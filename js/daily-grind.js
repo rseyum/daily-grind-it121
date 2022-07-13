@@ -64,6 +64,19 @@ switch (myDay) {
     };
 
     break;
+  case 2:
+    today = "Tuesday";
+
+    coffee = {
+      color: "orangered",
+      name: "Pumpkin Spice Latte",
+      pic: "images/pumpkin-spice-latte.jpg",
+      alt: "A picture of a pumpkin spice latte in an orange mug",
+      day: "Tuesday",
+      desc: `Treat yourself on a Tuesday, with our cozy Pumpkin Spice Latte`,
+    };
+
+    break;
 
   default:
     today = "Something went wrong!";
