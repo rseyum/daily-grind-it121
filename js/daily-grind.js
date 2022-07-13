@@ -64,6 +64,7 @@ switch (myDay) {
     };
 
     break;
+
   case 2:
     today = "Tuesday";
 
@@ -77,6 +78,7 @@ switch (myDay) {
     };
 
     break;
+
   case 3:
     today = "Wednesday";
 
@@ -103,6 +105,7 @@ switch (myDay) {
       desc: `Friday is almost here! Time to push through with our classic Drip Coffee`,
     };
     break;
+
   case 5:
     today = "Friday";
 
@@ -128,6 +131,7 @@ switch (myDay) {
       desc: `It's Saturday! Time to enjoy a nice, cold, refreshing frappacino`,
     };
     break;
+
   default:
     today = "Something went wrong!";
 }
